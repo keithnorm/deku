@@ -1,4 +1,4 @@
-require_relative 'application'
+require './application'
 
 set :run, false
 set :environment, :production
