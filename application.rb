@@ -2,6 +2,7 @@ require 'rubygems'
 require 'sinatra'
 require_relative 'environment'
 
+
 configure do
   set :views, "#{File.dirname(__FILE__)}/views"
 end
