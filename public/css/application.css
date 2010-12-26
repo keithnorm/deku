@@ -1,0 +1,376 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+fieldset, img {
+  border: 0; }
+
+address, caption, cite, code, dfn, em, strong, th, var {
+  font-style: normal;
+  font-weight: normal; }
+
+ul, ol {
+  list-style: none; }
+
+caption, th {
+  text-align: left; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal; }
+
+q:before, q:after {
+  content: ""; }
+
+abbr, acronym {
+  border: 0;
+  font-variant: normal; }
+
+sup {
+  vertical-align: text-top; }
+
+sub {
+  vertical-align: text-bottom; }
+
+input, textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: normal; }
+
+input, textarea, select {
+  *font-size: 100%; }
+
+/*
+	Variable Grid System.
+	Learn more ~ http://www.spry-soft.com/grids/
+	Based on 960 Grid System - http://960.gs/
+
+	Licensed under GPL and MIT.
+*/
+/* Containers
+----------------------------------------------------------------------------------------------------*/
+.container_12 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 936px; }
+
+/* Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+  display: inline;
+  float: left;
+  position: relative;
+  margin-left: 25px;
+  margin-right: 25px; }
+
+/* Grid >> Children (Alpha ~ First, Omega ~ Last)
+----------------------------------------------------------------------------------------------------*/
+.first {
+  margin-left: 0; }
+
+.last {
+  margin-right: 0; }
+
+/* Grid >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+.container_12 .grid_1 {
+  width: 28px; }
+
+.container_12 .grid_2 {
+  width: 106px; }
+
+.container_12 .grid_3 {
+  width: 184px; }
+
+.container_12 .grid_4 {
+  width: 262px; }
+
+.container_12 .grid_5 {
+  width: 340px; }
+
+.container_12 .grid_6 {
+  width: 418px; }
+
+.container_12 .grid_7 {
+  width: 496px; }
+
+.container_12 .grid_8 {
+  width: 574px; }
+
+.container_12 .grid_9 {
+  width: 652px; }
+
+.container_12 .grid_10 {
+  width: 730px; }
+
+.container_12 .grid_11 {
+  width: 808px; }
+
+.container_12 .grid_12 {
+  width: 886px; }
+
+/* Prefix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+.container_12 .prefix_1 {
+  padding-left: 78px; }
+
+.container_12 .prefix_2 {
+  padding-left: 156px; }
+
+.container_12 .prefix_3 {
+  padding-left: 234px; }
+
+.container_12 .prefix_4 {
+  padding-left: 312px; }
+
+.container_12 .prefix_5 {
+  padding-left: 390px; }
+
+.container_12 .prefix_6 {
+  padding-left: 468px; }
+
+.container_12 .prefix_7 {
+  padding-left: 546px; }
+
+.container_12 .prefix_8 {
+  padding-left: 624px; }
+
+.container_12 .prefix_9 {
+  padding-left: 702px; }
+
+.container_12 .prefix_10 {
+  padding-left: 780px; }
+
+.container_12 .prefix_11 {
+  padding-left: 858px; }
+
+/* Suffix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+.container_12 .suffix_1 {
+  padding-right: 78px; }
+
+.container_12 .suffix_2 {
+  padding-right: 156px; }
+
+.container_12 .suffix_3 {
+  padding-right: 234px; }
+
+.container_12 .suffix_4 {
+  padding-right: 312px; }
+
+.container_12 .suffix_5 {
+  padding-right: 390px; }
+
+.container_12 .suffix_6 {
+  padding-right: 468px; }
+
+.container_12 .suffix_7 {
+  padding-right: 546px; }
+
+.container_12 .suffix_8 {
+  padding-right: 624px; }
+
+.container_12 .suffix_9 {
+  padding-right: 702px; }
+
+.container_12 .suffix_10 {
+  padding-right: 780px; }
+
+.container_12 .suffix_11 {
+  padding-right: 858px; }
+
+/* Push Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+.container_12 .push_1 {
+  left: 78px; }
+
+.container_12 .push_2 {
+  left: 156px; }
+
+.container_12 .push_3 {
+  left: 234px; }
+
+.container_12 .push_4 {
+  left: 312px; }
+
+.container_12 .push_5 {
+  left: 390px; }
+
+.container_12 .push_6 {
+  left: 468px; }
+
+.container_12 .push_7 {
+  left: 546px; }
+
+.container_12 .push_8 {
+  left: 624px; }
+
+.container_12 .push_9 {
+  left: 702px; }
+
+.container_12 .push_10 {
+  left: 780px; }
+
+.container_12 .push_11 {
+  left: 858px; }
+
+/* Pull Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+.container_12 .pull_1 {
+  left: -78px; }
+
+.container_12 .pull_2 {
+  left: -156px; }
+
+.container_12 .pull_3 {
+  left: -234px; }
+
+.container_12 .pull_4 {
+  left: -312px; }
+
+.container_12 .pull_5 {
+  left: -390px; }
+
+.container_12 .pull_6 {
+  left: -468px; }
+
+.container_12 .pull_7 {
+  left: -546px; }
+
+.container_12 .pull_8 {
+  left: -624px; }
+
+.container_12 .pull_9 {
+  left: -702px; }
+
+.container_12 .pull_10 {
+  left: -780px; }
+
+.container_12 .pull_11 {
+  left: -858px; }
+
+/* Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+/* http://sonspring.com/journal/clearing-floats */
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0; }
+
+/* http://perishablepress.com/press/2008/02/05/lessons-learned-concerning-the-clearfix-css-hack */
+.clearfix:after {
+  clear: both;
+  content: ' ';
+  display: block;
+  font-size: 0;
+  line-height: 0;
+  visibility: hidden;
+  width: 0;
+  height: 0; }
+
+.clearfix {
+  display: inline-block; }
+
+* html .clearfix {
+  height: 1%; }
+
+.clearfix {
+  display: block; }
+
+body {
+  background: url("/images/texture.jpg");
+  font: 12px Helevetica, Arial, sans-serif; }
+
+p {
+  margin-bottom: 12.5px; }
+
+a {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+a.button:hover {
+  text-decoration: none; }
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 50px; }
+
+h3 {
+  color: #669999;
+  font-size: 28px;
+  margin-bottom: 12.5px; }
+
+strong {
+  color: #669999;
+  font-weight: bold; }
+
+button, .button {
+  background-image: -webkit-gradient(linear, grad-point(#00e501), grad-point(opposite-position(#00e501)), grad-color-stops(#00b201));
+  background-image: -moz-linear-gradient(#00e501, #00b201);
+  background-image: linear-gradient(#00e501, #00b201);
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #34ff01;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 5px 10px; }
+
+.caps {
+  text-transform: uppercase; }
+
+#header {
+  background: #505079; }
+  #header #header_inner {
+    background: url("/images/header_sprite.gif") no-repeat 380px 0;
+    height: 297px;
+    position: relative; }
+  #header #logo {
+    position: absolute;
+    top: 40px;
+    left: 55px; }
+    #header #logo a {
+      background: url("/images/header_sprite.gif") no-repeat 0 -217px;
+      display: block;
+      height: 160px;
+      line-height: 1000em;
+      overflow: hidden;
+      width: 160px; }
+
+#content {
+  position: relative;
+  z-index: 10; }
+  #content #content_inner {
+    background: #fff;
+    padding: 28px 58px;
+    margin-top: -79px;
+    min-height: 200px; }
+
+#footer_inner {
+  background: url("/images/roots.gif") no-repeat 450px 0;
+  height: 69px; }
