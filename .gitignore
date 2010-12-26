@@ -1,2 +1,6 @@
 .DS_Store
 log
+*.css
+public/css/application.css
+.sass-cache
+

@@ -17,7 +17,14 @@ helpers do
   # add your helpers here
 end
 
-# root page
 get '/' do
-  haml :root
+  haml :index
+end
+
+get '/search' do
+  haml :search
+end
+
+get '/signup' do
+  haml 'users/new'.to_sym
 end

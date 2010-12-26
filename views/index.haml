@@ -1,0 +1,31 @@
+%h2
+  %strong
+    Deku
+  makes it easy to save money by sharing WiFi with your neighbors. Get started in seconds.
+
+.clearfix
+  .grid_6.first
+    %h3.caps
+      %label{:for => 'search'}
+        I Need Internet
+
+    %p 
+      Avoid contracts and cut costs by renting WiFi from a neighbor.
+
+    %form{:action => '/search', :method => 'get'}
+      %input.input{:type => 'text', :name => 'location', :id => 'search', :title => 'full address'}
+      %button Find WiFi
+
+  .grid_5.last
+    %h3.caps
+      %label
+        I Have Internet
+
+    %p 
+      Reduce your monthly bill by sharing your connection.
+
+    %a.button{:href => '/signup'} Get Started Sharing
+    
+  
+
+

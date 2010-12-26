@@ -1,0 +1,103 @@
+@import 'reset';
+@import 'grid';
+@import 'compass';
+
+$mulled_wine: #505079;
+$patina: #669999;
+$green_22: #00db02;
+$green_96: #00b201;
+$sans_serif: Helevetica, Arial, sans-serif;
+
+body {
+  background: url('/images/texture.jpg');
+  font: 12px $sans_serif;
+}
+
+p {
+  margin-bottom: $gutter/2;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a.button:hover {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: $gutter * 2;
+}
+
+h3 {
+  color: $patina;
+  font-size: 28px;
+  margin-bottom: $gutter/2;
+}
+
+strong {
+  color: $patina;
+  font-weight: bold;
+}
+
+button, .button {
+  @include linear-gradient($green_96, "#{ lighten($green_96, 10%) }");
+  @include border-radius(3px);
+  border: 1px solid #34ff01;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 5px 10px;
+}
+
+.caps {
+  text-transform: uppercase;
+}
+
+#header {
+  background: $mulled_wine;
+
+  #header_inner {
+    background: url('/images/header_sprite.gif') no-repeat 380px 0;
+    height: 297px;
+    position: relative;
+  }
+
+  #logo {
+    position: absolute;
+    top: 40px;
+    left: 55px;
+
+    a {
+      background: url('/images/header_sprite.gif') no-repeat 0 -217px;
+      display: block;
+      height: 160px;
+      line-height: 1000em;
+      overflow: hidden;
+      width: 160px;
+    }
+  }
+}
+
+#content {
+  position: relative;
+  z-index: 10;
+
+  #content_inner {
+    background: #fff;
+    padding: 28px 58px;
+    margin-top: -79px;
+    min-height: 200px;
+  }
+}
+
+#footer_inner {
+  background: url('/images/roots.gif') no-repeat 450px 0;
+  height: 69px;
+}
