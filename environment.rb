@@ -1,5 +1,4 @@
 require 'rubygems'
-require 'compass'
 require 'haml'
 require 'ostruct'
 require 'sass/plugin/rack'
