@@ -1,4 +1,5 @@
 sinatra -v 1.0
 haml
+sass
 compass
 
