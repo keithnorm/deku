@@ -1,0 +1,16 @@
+GEM
+  specs:
+    compass (0.10.6)
+      haml (>= 3.0.4)
+    haml (3.0.24)
+    rack (1.2.1)
+    sinatra (1.0)
+      rack (>= 1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  compass
+  haml
+  sinatra (= 1.0)
